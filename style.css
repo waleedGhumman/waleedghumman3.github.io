@@ -1,0 +1,21 @@
+/* Sketches and Storyboards */
+.sketches-container, .storyboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.sketch-item img, .storyboard-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sketch-description, .storyboard-description {
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
